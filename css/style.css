@@ -1,0 +1,72 @@
+body{
+    background-color: #423d3d;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0;
+    width: 290px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 20px 20px 0 20px;
+}
+h3{
+    font-size: 28px;
+    font-family: 'Damion', cursive;
+    text-align: center;
+    color: #423d3d;
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: sans-serif, cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 50px;
+    background-color: beige;
+    padding: 17px;
+    flex-grow: 1;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    margin: 3px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #bdf3d1;
+    border-radius: 10px;
+    padding: 16px;
+    color: #21aa66;
+    font-weight: bold;
+}
+.boton:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #21aa66;
+    border-radius: 10px;
+    padding: 16px;
+    color: #bdf3d1;
+    font-weight: bold;
+}
+a:link{
+    -webkit-tap-highlight-color: transparent;
+}
