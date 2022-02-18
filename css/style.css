@@ -8,9 +8,9 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
-    max-width: 1000px;
+    /* max-width: 1000px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .tope{
     display: flex;
@@ -22,16 +22,17 @@ body{
 }
 h1{
     font-family: monospace;
-    font-size: 100px;
+    font-size: 8.8vh;
     margin: 0;
     padding: 0;
 }
 h2{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     color: #c9cbcf;
+    width: 100%;
 }
 .gradiente {
     background-image: linear-gradient( 90deg,#ad46cc, #1b727e);
@@ -47,6 +48,7 @@ article{
     padding: 0;
     width: 290px;
     height: auto;
+    margin: 0 1.5rem; /* Aquí */
 }
 img{
     width: 250px;
@@ -62,7 +64,7 @@ h3{
     margin: 5px 0;
     padding: 0;
 }
-div{
+.info{
     font-family: sans-serif, cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
