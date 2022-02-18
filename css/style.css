@@ -1,16 +1,52 @@
 body{
-    background-color: #423d3d;
+  margin: 0;
+  padding: 0;
+  background-color: #423d3d;
+}
+.todo{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tope{
+    display: flex;
+    flex-direction: column;
+    background-color: #101010;
+    margin: 0 0 1rem 0;
+    padding: 0 0 1rem 0;
+    text-align: center;
+}
+h1{
+    font-family: monospace;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #c9cbcf;
+}
+.gradiente {
+    background-image: linear-gradient( 90deg,#ad46cc, #1b727e);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: fit-content;
 }
 article{
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #2b2727;
     padding: 0;
     width: 290px;
+    height: auto;
 }
 img{
     width: 250px;
@@ -20,10 +56,10 @@ img{
 }
 h3{
     font-size: 28px;
-    font-family: 'Damion', cursive;
+    font-family: sans-serif;
     text-align: center;
-    color: #423d3d;
-    margin: 0;
+    color: #1b727e;
+    margin: 5px 0;
     padding: 0;
 }
 div{
@@ -31,8 +67,7 @@ div{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 50px;
-    background-color: beige;
-    padding: 17px;
+    padding: 0px 17px 17px 17px;
     flex-grow: 1;
 }
 .precio{
@@ -44,16 +79,20 @@ div{
 }
 p{
     margin: 3px;
+    color: #c9cbcf;
+}
+.contenido{
+    font-size: 13px;
 }
 .boton{
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    background-color: #bdf3d1;
+    background-color: #181616;
     border-radius: 10px;
     padding: 16px;
-    color: #21aa66;
+    color: #ad46cc;
     font-weight: bold;
 }
 .boton:hover{
@@ -61,10 +100,10 @@ p{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    background-color: #21aa66;
+    background-color: #101010;
     border-radius: 10px;
     padding: 16px;
-    color: #bdf3d1;
+    color: #1b727e;
     font-weight: bold;
 }
 a:link{
